@@ -1,0 +1,50 @@
+/* Center the login form and style it */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+  
+  .login-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #003049;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    gap: 1rem;
+  }
+  
+  .login-container label {
+    font-size: 1.2rem;
+    color: #264653;
+  }
+  
+  .login-container input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-button {
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    background-color: #003049;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #264653;
+  }
+  

@@ -1,0 +1,75 @@
+/* Profile.css */
+.manage-profile-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f7f9fc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.manage-profile-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #003049;
+}
+
+.manage-profile-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.manage-profile-container label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #003049;
+}
+
+.manage-profile-container input[type="text"],
+.manage-profile-container input[type="number"],
+.manage-profile-container input[type="file"] {
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 1px solid #ccd;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.update-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #003049;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+
+.update-button:hover {
+    background-color: #264653;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    color: #264653;
+    font-size: 0.9rem;
+}
+.error-message, .success-message {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .success-message {
+    color: green;
+  }

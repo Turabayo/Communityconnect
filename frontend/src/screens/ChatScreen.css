@@ -1,0 +1,33 @@
+.chat-container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .messages {
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+  }
+  
+  form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

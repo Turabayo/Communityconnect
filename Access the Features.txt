@@ -1,0 +1,14 @@
+Access the Features:
+
+Open your browser and go to http://localhost:3000.
+From there, you can access various features you have added:
+Chat screen: Go to http://localhost:3000/chat to test the real-time chat functionality.
+Booking screen: Go to http://localhost:3000/book to see the booking form.
+Provider bookings: Go to http://localhost:3000/provider/bookings (if logged in as a provider).
+Consumer bookings: Go to http://localhost:3000/consumer/bookings (if logged in as a consumer).
+Profile page: Go to http://localhost:3000/profile to manage your profile.
+
+Test Real-time Chat:
+
+Open the Chat Screen in two separate browser tabs by visiting http://localhost:3000/chat.
+Try sending a message in one tab, and you should see the message appear in the other tab in real-time (thanks to Socket.io).
